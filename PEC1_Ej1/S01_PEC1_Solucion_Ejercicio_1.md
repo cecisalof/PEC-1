@@ -26,8 +26,20 @@ En resumen, el uso de etiquetas semánticas en HTML5 mejora la accesibilidad, la
 
 • Cita al menos 3 APIs HTML5 y explica brevemente su funcionalidad.
 
-• Cita qué opción ofrece CSS3 para conseguir que se apliquen diferentes estilos CSS sobre el mismo elemento en su visualización en diferentes dispositivos
-(diferentes tamaños de pantalla).
+Una **API** (Interfaz de Programación de Aplicaciones) es un conjunto de reglas y protocolos que permite a diferentes aplicaciones y sistemas comunicarse entre sí. En términos simples, una API define cómo interactuar con un sistema o servicio específico, proporcionando una interfaz estandarizada que permite a los desarrolladores acceder y manipular los recursos y funcionalidades de ese sistema de manera programática.
+
+**HTML5**, como estándar de marcado para páginas web, no proporciona APIs específicas, ya que se centra en la estructura y presentación del contenido web. Sin embargo, HTML5 se complementa con otras tecnologías, como JavaScript y las APIs del navegador, que permiten la interacción dinámica y avanzada con el contenido web. A continuación, menciono algunas APIs de navegador que son comúnmente utilizadas junto con HTML5:
+
+1. API de Geolocalización: Permite a los desarrolladores acceder a la ubicación del dispositivo del usuario a través del navegador web. Los desarrolladores pueden utilizar esta información para proporcionar contenido y servicios personalizados basados en la ubicación del usuario, como mostrar mapas locales, encontrar servicios cercanos o personalizar la experiencia de usuario según la región.
+
+2. API de Canvas: Proporciona un lienzo gráfico en el navegador para dibujar gráficos, animaciones y otros elementos visuales de manera dinámica mediante JavaScript. Esta API es útil para crear juegos en línea, visualizaciones de datos interactivas, aplicaciones de dibujo en línea y otras experiencias visuales sofisticadas directamente dentro del navegador, sin necesidad de complementos externos.
+
+3. API de Web Storage: Ofrece una forma de almacenar datos localmente en el navegador del usuario, permitiendo el almacenamiento persistente o de sesión. Se compone de dos mecanismos principales: **localStorage** y **sessionStorage**. El localStorage permite almacenar datos de manera persistente en el navegador, lo que significa que los datos permanecen incluso después de cerrar y volver a abrir el navegador, mientras que el sessionStorage almacena datos de manera temporal durante la sesión de navegación actual. Esta API es útil para almacenar información como preferencias de usuario, datos de inicio de sesión, carritos de compra en línea y otra información relevante para la aplicación web.
+
+• Cita qué opción ofrece CSS3 para conseguir que se apliquen diferentes estilos CSS sobre el mismo elemento en su visualización en diferentes dispositivos (diferentes tamaños de pantalla).
+
+
+
 • Cita al menos 4 de las características principales de TypeScript (importante
 superset de JavaScript que trataremos en el siguiente capítulo).
 Desarrollo front-end con frameworks Javascript 24/02/2024 pág. 9
