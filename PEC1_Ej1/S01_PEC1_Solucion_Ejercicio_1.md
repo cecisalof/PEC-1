@@ -38,18 +38,39 @@ Una **API** (Interfaz de Programación de Aplicaciones) es un conjunto de reglas
 
 • Cita qué opción ofrece CSS3 para conseguir que se apliquen diferentes estilos CSS sobre el mismo elemento en su visualización en diferentes dispositivos (diferentes tamaños de pantalla).
 
+CSS3 ofrece la funcionalidad de Media Queries para lograr que se apliquen diferentes estilos CSS sobre el mismo elemento en su visualización en diferentes dispositivos, especialmente en función del tamaño de pantalla.
+
+Las **Media Queries** permiten especificar condiciones basadas en características del dispositivo, como el ancho de la pantalla, la orientación, la resolución, entre otros, y aplicar estilos CSS específicos en función de esas condiciones.
+
+Por ejemplo, para aplicar diferentes estilos CSS a un elemento con el id "myElement" dependiendo del ancho de la pantalla, puedes usar una Media Query de la siguiente manera:
+
+css
+@media screen and (max-width: 768px) {
+    #myElement {
+        /* Estilos para pantallas con un ancho máximo de 768px */
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #myElement {
+        /* Estilos para pantallas con un ancho mínimo de 769px */
+    }
+}
+
+En este ejemplo, los estilos definidos dentro de la primera Media Query se aplicarán cuando el ancho de la pantalla sea de 768 píxeles o menos, mientras que los estilos dentro de la segunda Media Query se aplicarán cuando el ancho de la pantalla sea de 769 píxeles o más. De esta manera, se pueden adaptar los estilos del mismo elemento según el tamaño de pantalla del dispositivo en el que se está visualizando la página web.
 
 
 • Cita al menos 4 de las características principales de TypeScript (importante
 superset de JavaScript que trataremos en el siguiente capítulo).
-Desarrollo front-end con frameworks Javascript 24/02/2024 pág. 9
-2. El lenguaje CSS es muy rígido, poco práctico y ordenado a la hora de programar. Para
-evitar este problema se han creado los preprocesadores CSS, que ofrecen evidentes
+
+
+2. El lenguaje CSS es muy rígido, poco práctico y ordenado a la hora de programar. Para evitar este problema se han creado los preprocesadores CSS, que ofrecen evidentes
 ventajas (0.5 puntos)
 • Cita al menos 2 de estos preprocesadores.
 • Cita al menos 4 ventajas que ofrecen estos preprocesadores.
 • Explica brevemente en qué consisten los sourcemaps.
 • Explica qué es un transpilador.
+
 3. El flujo de trabajo profesional en front-end hace indispensable el uso de herramientas
 como controles de versiones y herramientas de gestión de módulos (0.75 puntos).
 • Cita al menos dos sistemas de control de versiones y dos herramientas de
